@@ -71,5 +71,6 @@ def is_virginica_test(fi, t, reverse, example):
      if reverse:
          test = not test
      return test     
+print(test)
 
 
