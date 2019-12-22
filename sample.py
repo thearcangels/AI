@@ -7,3 +7,4 @@ good_time = timeit.timeit('na.dot(na)',setup="import numpy as np; na=np.arange(1
 print("Normal Python: %f sec"%normal_time)
 print("Naive Numpy: %f sec"%naive_time)
 print("Good Numpy: %f sec"%good_time)
+print("What can be infered?")
